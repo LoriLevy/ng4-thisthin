@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-view',
   templateUrl: './home.component.html'
-  
+
 })
 export class HomeComponent implements OnInit {
-  public pageTitle: string = 'Welcome to This Thin';
-  constructor() { }
+  
+  pageTitle = "This Thin Home Page";
 
   ngOnInit() {
+   // this.route.parent.paramMap.subscribe(params => { debugger; this.strTitle = params.get('title') });
+   // this.strTitle = this.route.snapshot.data.title;
   }
-
 }

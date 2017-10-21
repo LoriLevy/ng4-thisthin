@@ -15,23 +15,16 @@
                                             </a>
                                     <div class="nav-collapse nav-collapse_ collapse">
                                         <ul class="nav sf-menu clearfix sf-js-enabled">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li class="active"><a href="gettingstarted.html">Getting started</a></li>
-                                            <li class="">
-                                                <a href="meals.html">Meals</a>
-                                            </li>
-                                            <li><a href="enhancers.html">Enhancers</a></li>
-                                            <li><a href="baking.html">Low-Fat Baking</a></li>
-
+                                            <li routerLinkActive="active"><a routerLink="/home" (click)="setTitle($event)">Home</a></li>
+                                            <li routerLinkActive="active"><a routerLink="/gettingstarted" (click)="setTitle($event)">Getting Started</a></li>
+                                            <li routerLinkActive="active"><a routerLink="/meals" (click)="setTitle($event)">Meals</a></li>
+                                            <li routerLinkActive="active"><a routerLink="/enhancers" (click)="setTitle($event)">Enhancers</a></li>
+                                            <li routerLinkActive="active"><a routerLink="/baking" (click)="setTitle($event)">Low-Fat Baking</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="page_title">
-                                <div class="page_title_left"></div>
-                                <div class="page_title_px">{{ pageTitle }} Welcome to This Thin</div>
-                                <div class="page_title_right"></div>
-                            </div>
+                            <app-title [pageTitle]="pageTitle"></app-title>
                         </div>
                     </div>
                 </div>

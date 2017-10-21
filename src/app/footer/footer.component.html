@@ -5,11 +5,11 @@
               <div class="bot1_inner">
                   <div class="menu_bot">
                       <ul id="menu_bot" class="clearfix">
-                          <li class="active"><a href="index.html">Home</a></li>
-                          <li><a href="gettingstarted.html">Getting Started</a></li>
-                          <li><a href="meals.html">Meals</a></li>
-                          <li><a href="enhancers.html">Enhancers</a></li>                                    
-                          <li><a href="baking.html">Low-Fat Baking</a></li>
+                          <li><a routerLink="/home" (click)="setTitle($event)">Home</a></li>
+                          <li><a routerLink="/gettingstarted" (click)="setTitle($event)">Getting Started</a></li>
+                          <li><a routerLink="/meals" (click)="setTitle($event)">Meals</a></li>
+                          <li><a routerLink="/enhancers" (click)="setTitle($event)">Enhancers</a></li>                                    
+                          <li><a routerLink="/baking" (click)="setTitle($event)">Low-Fat Baking</a></li>
 
                       </ul>
                   </div>
