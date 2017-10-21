@@ -1,7 +1,5 @@
 import { Component, EventEmitter, OnInit, Input, Output } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
-import { HomeComponent } from '../home/home.component';
-import { TitleComponent } from '../shared/title/title.component';
 
 @Component({
   selector: 'app-footer',
