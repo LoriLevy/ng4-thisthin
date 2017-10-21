@@ -21,5 +21,12 @@ export class HeaderComponent implements OnInit {
       console.log('target text is: ' + $event.target.text);
     }
   }
+ 
+  setActiveLi(activeRoute) {
+    console.log('activeRoute is: ' + activeRoute.target.text);
+    if(activeRoute === this.pageTitle) {
+      return "active";
+    }
+  }
 
 }

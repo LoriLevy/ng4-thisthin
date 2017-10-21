@@ -1,6 +1,6 @@
 {
   "name": "ng4-thisthin",
-  "version": "1.0.3-alpha",
+  "version": "1.0.4-alpha",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
