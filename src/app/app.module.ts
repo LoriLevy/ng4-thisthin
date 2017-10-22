@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -10,8 +9,8 @@ import { GettingstartedComponent } from './gettingstarted/gettingstarted.compone
 import { bootstrap } from 'bootstrap';
 import { TitleComponent } from './shared/title/title.component';
 import { NotfoundComponent } from './notfound/notfound.component';
-
-//import { routes } from './app.route';
+import { RecipeComponent } from './shared/recipe/recipe.component';
+//import { RecipesComponent } from './shared/recipes/recipes.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,9 @@ import { NotfoundComponent } from './notfound/notfound.component';
     HomeComponent,
     GettingstartedComponent,
     TitleComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    RecipeComponent //,
+    //RecipesComponent
   ],
   imports: [
     BrowserModule, RouterModule,
@@ -29,11 +30,10 @@ import { NotfoundComponent } from './notfound/notfound.component';
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
       { path: 'gettingstarted', component: GettingstartedComponent },
-      { path: 'meals', component: NotfoundComponent },
+      { path: 'meals', component: RecipeComponent },
       { path: 'enhancers', component: NotfoundComponent },
-      { path: 'lowfatbaking', component: NotfoundComponent }
+      { path: 'baking', component: NotfoundComponent }
     ])
-//    routes
    
   ],
   providers: [],

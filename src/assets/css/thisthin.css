@@ -344,7 +344,12 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .thumb-isotope .caption{text-decoration: none; border-radius:0 0 15px 15px; -moz-border-radius:0 0 15px 15px; -webkit-border-radius:0 0 15px 15px; background: #92664c; padding: 15px 3px; font-family: 'Droid Serif'; font-size: 16px; line-height: 20px; font-weight: 700; font-style: italic; color: #fff0db; text-align: center;}
 
 
-
+a[target="recipe"] {
+	color: white;
+} 
+a[target="recipe"]:hover {
+	color: #d8c4ab
+} 
 
 
 /*================= Contacts =========================*/
