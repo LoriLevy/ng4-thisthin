@@ -1,0 +1,51 @@
+<!-- <app-recipe *ngFor="let recipeItem of recipes" [recipeImage]="recipeItem.imageUrl" [recipePdf]="recipeItem.pdfUrl" [recipeName]="recipeItem.recipeName" [recipeDescription]="recipeItem.description"></app-recipe> -->
+
+<!-- [recipeImage]="recipeItem.recipeImage" recipeImage comes from Recipe.ts and recipe.recipeImage is from "let recipe..."" -->
+<div id="content">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="box1">
+
+          <h1>Meals & Recipes</h1>
+
+          <div id="isotope-options">
+            <ul id="isotope-filters" class="clearfix">
+              <li>
+                <a [routerLink]="['/meals', 'all']" (click)="setTitle($event)">Show All</a>
+                
+              </li>
+              <li>
+                <a [routerLink]="['/meals', 'breakfast']" (click)="setTitle($event)">Breakfast</a>
+              </li>
+              <li>
+                <a [routerLink]="['/meals', 'lunch']" (click)="setTitle($event)">Lunch</a>
+              </li>
+              <li>
+                <a [routerLink]="['/meals', 'dinner']" (click)="setTitle($event)">Dinner</a>
+              </li>
+              <li>
+                <a [routerLink]="['/meals', 'dessert']" (click)="setTitle($event)">Dessert</a>
+              </li>
+              <li>
+                <a [routerLink]="['/meals', 'sides']" (click)="setTitle($event)">Sides</a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="thumbnails thumbnails-iisotope" id="isotope-items">
+            <app-recipe *ngFor="let recipeItem of recipes | recipeFilter: filter" 
+              [recipeCategory]="recipeItem.categoryFilter"
+              [recipeImage]="recipeItem.imageUrl" 
+              [recipePdf]="recipeItem.pdfUrl" 
+              [recipeName]="recipeItem.recipeName"
+              [recipeDescription]="recipeItem.description"
+              [filter] = "filter"> 
+            </app-recipe>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

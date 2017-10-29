@@ -48,9 +48,9 @@
                                 </h4>
                                 <p>Download and review my list of low-fat
                                     <u>
-                                        <a href="assets/pdf/FoodsToBuyAndEat.pdf" target="FoodsToBuyAndEat">Foods to Buy and Eat</a>
+                                        <a href="assets/pdfs/FoodsToBuyAndEat.pdf" target="FoodsToBuyAndEat">Foods to Buy and Eat</a>
                                     </u> and view the
-                                    <a href="#"> Meals</a> page for beautiful and delicious super low-fat recipes.
+                                    <a [routerLink]="['/meals', 'all']" (click)="setTitle($event)">Meals</a> page for beautiful and delicious super low-fat recipes.
                                 </p>
                             </div>
                             <div class="caption">

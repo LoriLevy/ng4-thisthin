@@ -10,8 +10,8 @@ import { bootstrap } from 'bootstrap';
 import { TitleComponent } from './shared/title/title.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { RecipeComponent } from './shared/recipe/recipe.component';
-//import { RecipesComponent } from './shared/recipes/recipes.component';
-
+import { RecipesComponent } from './shared/recipes/recipes.component';
+import { RecipeFilterPipe } from "./shared/recipes/recipe-filter.Pipe";
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,18 +21,19 @@ import { RecipeComponent } from './shared/recipe/recipe.component';
     GettingstartedComponent,
     TitleComponent,
     NotfoundComponent,
-    RecipeComponent //,
-    //RecipesComponent
+    RecipeComponent,
+    RecipesComponent,
+    RecipeFilterPipe
   ],
   imports: [
     BrowserModule, RouterModule,
     RouterModule.forRoot ([
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
       { path: 'gettingstarted', component: GettingstartedComponent },
-      { path: 'meals', component: RecipeComponent },
+      { path: 'meals/:filter', component: RecipesComponent },
       { path: 'enhancers', component: NotfoundComponent },
-      { path: 'baking', component: NotfoundComponent }
+      { path: 'baking', component: NotfoundComponent },
+      { path: '', redirectTo: 'home', pathMatch: 'full' }
     ])
    
   ],

@@ -1,136 +1,138 @@
-[{
-    "recipeId": 1,
-    "recipeName": "Stuffed Portobellos",
-    "description": "Stuffed Portobellos are hearty, and can be a meal unto themselves. Make them as a side dish or for a satisfying low-fat dinner.",
-    "categoryFilter": "dinner side-dish",
-    "starRating": 3.2,
-    "imageUrl": "assets/images/recipes/stuffed.portobellos.png",
-    "pdfUrl": "assets/pdf/Stuffed.Portobellos.pdf"
-},
-{
-    "recipeId": 2,
-    "recipeName": "Grilled Salmon and Vegetables",
-    "description": "There is nothing quite like Grilled Salmon and Vegetables. We catch a lot of salmon on the Columbia River, and I tell you that boat we got last year has really paid off. When you catch a big salmon and filet it, it will keeo in the freezer up to 10 months if you pack with a seal-a-meal. If you can't get fresh-caught salmon, farmed salmon sold in grocery stores can be really good. The key to this recipe, is don't overcook the salmon. Take off before you think it's done, because it keeps on cooking until it cools down.",
-    "categoryFilter": "dinner",
-    "starRating": 5.0,
-    "imageUrl": "assets/images/recipes/grilled-salmon-veggies.jpg",
-    "pdfUrl": "assets/pdf/Grilled.Salmon.and.Veggies.pdf"
-},
-{
-    "recipeId": 3,
-    "recipeName": "Super Extra Low-Fat Cranberry Cookies",
-    "description": "Super Extra Low-Fat Cranberry Cookies are easier to make when you plan ahead. Get your food processor out! Grind your cereal and graham cracker crumbs and put them in SnapWare containers. THen make your own butter out of prunes, which keeps in the fridge for up to three weeks. These moist cookies are so delightful! I bet you can't eat just one, and nobody will believe they are low-fat!",
-    "categoryFilter": "dessert",
-    "starRating": 4.8,
-    "imageUrl": "assets/images/recipes/self-cookies.jpg",
-    "pdfUrl": "assets/pdf/Self.Cookies.pdf"
-},
-{
-    "recipeId": 4,
-    "recipeName": "Baked Yam Chips",
-    "description": "Although it takes time to make these chips, it's worth it! Make alot because they go really fast! But remember, for you, everything in moderation.",
-    "categoryFilter": "side-dish",
-    "starRating": 4.8,
-    "imageUrl": "assets/images/recipes/baked-yam-chips.jpg",
-    "pdfUrl": "assets/pdf/Baked.Yam.Chips.pdf"
-},
-{
-    "recipeId": 5,
-    "recipeName": "Chicken Sandwich with Fruit.",
-    "description": "This is a great lunch or late afternoon snack. Easy to make and take to work, or quick to enjoy at home. I love this recipe because I get enregy from the protein, and the fruit makes me feel like I am enjoying dessert at the same time as I am enjoying my lunch. You can make this meal in less than 5 minutes. Get your knife!",
-    "categoryFilter": "lunch",
-    "starRating": 3.8,
-    "imageUrl": "assets/images/recipes/chicken-sandwich-fruit.png",
-    "pdfUrl": "assets/pdf/Chicken.Sandwich.With.Fruit.pdf"
-},
-{
-    "recipeId": 6,
-    "recipeName": "Cranberry Snap Brownies",
-    "description": "These rich and gooey bar cookies aren't really brownies! I don't even know why they are called that! I modified a 123 Snap Brownie recipe to come up with these, replacing all of the high-fat ingredients with low-fat or fat-free ingredients. I replaced the chocloate chips in the origial recipe with dried sanberries. Sooooooo goooooood!",
-    "categoryFilter": "dessert",
-    "starRating": 4.0,
-    "imageUrl": "assets/images/recipes/low-fat-snap-brownies.png",
-    "pdfUrl": "assets/pdf/Cranberry.Snap.Brownies.pdf"
-},
-{
-    "recipeId": 7,
-    "recipeName": "Delicious Fat-Free Cornbread",
-    "description": "Have you ever order cornbread at Marie Callendar's? It's good, isn't it! But half of an order contains 10 grams of fat! Have you ever made cornbread from the box? Like Jiffy? If you fllow the directions on the box, you will consume 4.5 grams of fat per serving! Try this recipe from scratch which not only tastes wonderful, but is almost completely fat-free!",
-    "categoryFilter": "side-dish",
-    "starRating": 4.5,
-    "imageUrl": "assets/images/recipes/fat-free-cornbread.jpg",
-    "pdfUrl": "assets/pdf/Delicious.Fatfree.Cornbread.pdf"
-},
-{
-    "recipeId": 8,
-    "recipeName": "Fat-free Potatoes",
-    "description": "Potatoes are very satisfying. Althought this recipe say to bake the potatoes in the oven, you can also make them a day or two ahead. Steam them instead, and store them in the fridge in a deep SnapWare container. Then just cook the onions in the frying pan and cut up the cold steamed potatoes. They are great for a breakfast or dinner side dish, and they ven good cold, when you need a snack later!",
-    "categoryFilter": " breakfast side-dish",
-    "starRating": 4.6,
-    "imageUrl": "assets/images/recipes/ff-potatoes.png",
-    "pdfUrl": "assets/pdf/Fatfree.Potatoes.pdf"
-},
-{
-    "recipeId": 9,
-    "recipeName": "Fruit Sundae",
-    "description": "This is one of my most favorite things to eat, because it makes me feel like I am celebrating! And it is guilt-free (aka Fat Free!). Just remember to use a small bowl. The bowl you see here is just 5 inches in diameter, so much smaller than a cereal or pasta bowl.",
-    "categoryFilter": "dessert",
-    "starRating": 4.0,
-    "imageUrl": "assets/images/recipes/fruit-sunday.png",
-    "pdfUrl": "assets/pdf/Fruit-Sundae.pdf"
-},
-{
-    "recipeId": 10,
-    "recipeName": "Parsnips and Pork",
-    "description": "This is a very, very satisfying meal, and so delicious, you may be tempted to eat a second bowl. If you are, wait 2 or 3 hours before you do! Why? Because seconds are a no-no. Just eat something every few hours. So have it for more than one meal (Ha! it actually tastes better the seond day!) but don't over-indulge. I make this a lot now, but in the <a href=&quot'http://www.powerpressurecooker.com&quot; target=&quotpressureCooker&quot>Pressure Cooker XL</a>. With a pressure cooker, it takes longer to cut up the meat and vegetables than it does to cook the meal. Amd if you re like me, and you regularly forget to take something out for dinner, you can use frozen pork in the  pressure cooker and it takes only a few minutes longer. Dinner in 15 minutes... Wow!",
-    "categoryFilter": "dinner",
-    "starRating": 4.0,
-    "imageUrl": "assets/images/recipes/baked-yam-chips.jpg",
-    "pdfUrl": "assets/pdf/Parsnips.and.Pork.pdf"
-},
-{
-    "recipeId": 11,
-    "recipeName": "Roasted Winter Vegetable Soup",
-    "description": "If you like the sweet, smooth taste of winter root vegetables, you will savor this soup. It's creamy without any added dairy products. Also, this meal is high in Vitamins A and C.",
-    "categoryFilter": "dinner lunch side-dish",
-    "starRating": 4.0,
-    "imageUrl": "assets/images/recipes/Roasted.Winter.Veggie.Soup.jpg",
-    "pdfUrl": "assets/pdf/Roasted.Winter.Veggie.Soup.pdf"
-},
-{
-    "recipeId": 12,
-    "recipeName": "Spaghetti Squash and Salad",
-    "description": "Spaghetti.Squash.and.Salad ",
-    "categoryFilter": "dinner lunch",
-    "starRating": 3.6,
-    "imageUrl": "assets/images/recipes/squash-n-salad.png",
-    "pdfUrl": "assets/pdf/Spaghetti.Squash.and.Salad.pdf"
-},
-{
-    "recipeId": 13,
-    "recipeName": "Spinach and Egg White Omlette Burrito",
-    "description": "Spinach and Egg White Omlette Burrito! What a way to start the day! Try to find <b>Canteca Flour Tortillas</b> as they have a fat-free package.",
-    "categoryFilter": "breakfast",
-    "starRating": 4.0,
-    "imageUrl": "assets/images/recipes/spinach-eggwhite-burrito.jpg",
-    "pdfUrl": "assets/pdf/Spinach.EggWhite.Burrito.pdf"
-},
-{
-    "recipeId": 14,
-    "recipeName": "Super Low-Fat Hummus",
-    "description": "Every container of Hummus I have ever seen in a grocery stpre contains <a>at least<i> 2.5 grams of fat for Two Tablespoons. Not this hummus! The way to make it taste really great is to be generous when you season it (garlic, etc.) and refridgerate it for  couple of hours before serving to allow the flavors to blend together. This recipe makes 2 nice-sized containers, so it is also much more economical than store-bought hummus.",
-    "categoryFilter": "side-dish",
-    "starRating": 4.9,
-    "imageUrl": "assets/images/recipes/hummus.png",
-    "pdfUrl": "assets/pdf/Super.Lowfat.Hummus.pdf"
-},
-{
-    "recipeId": 15,
-    "recipeName": "Super Low-Fat Potato Salad",
-    "description": "Less than one gram of fat per serving. How is this possible? There are no egg yolks or mayonnaise, which is where the majority of the fat comes from in potato salad. In this recipe, we provide you with an option replace even the low-fat mayo with fat-free plain yogurt, and some fat-free sour cream. Don't foget to spice it up and garnish it with the tips of green onions just before serving. The more, the merrier!",
-    "categoryFilter": "side-dish",
-    "starRating": 4.7,
-    "imageUrl": "assets/images/recipes/Super.Lowfat.Potato.Salad.jpg",
-    "pdfUrl": "assets/pdf/Super.Lowfat.Potato.Salad.pdf"
-}
+[ 
+    {
+        "recipeId": 1,
+        "recipeName": "Stuffed Portobellos",
+        "description": "Stuffed Portobellos are hearty, and can be a meal unto themselves. Make them as a side dish or for a satisfying low-fat dinner.",
+        "categoryFilter": "all dinner sides",
+        "starRating": 3.2,
+        "imageUrl": "assets/images/recipes/stuffed.portobellos.png",
+        "pdfUrl": "assets/pdfs/Stuffed.Portobellos.pdf"
+    },
+    {
+        "recipeId": 2,
+        "recipeName": "Grilled Salmon and Vegetables",
+        "description": "The key to this recipe, is don't overcook the salmon. It continues to cook while it's cooling down.",
+        "categoryFilter": "all dinner",
+        "starRating": 5.0,
+        "imageUrl": "assets/images/recipes/salmon.veggies.jpg",
+        "pdfUrl": "assets/pdfs/Grilled.Salmon.and.Veggies.pdf"
+    },
+    {
+        "recipeId": 3,
+        "recipeName": "Super Extra Low-Fat Cranberry Cookies",
+        "description": "Grind cereal and graham crackers in a food processor crumbs make your own butter out of prunes. Nobody ever believes they are low-fat!",
+        "categoryFilter": "all dessert",
+        "starRating": 4.8,
+        "imageUrl": "assets/images/recipes/self-cookies.jpg",
+        "pdfUrl": "assets/pdfs/Self.Cookies.pdf"
+    },
+    {
+        "recipeId": 4,
+        "recipeName": "Baked Yam Chips",
+        "description": "Although it takes time to make these chips, it's worth it! Make alot because they go really fast! But remember, for you, everything in moderation.",
+        "categoryFilter": "all sides",
+        "starRating": 4.8,
+        "imageUrl": "assets/images/recipes/baked-yam-chips.jpg",
+        "pdfUrl": "assets/pdfs/Baked.Yam.Chips.pdf"
+    },
+    {
+        "recipeId": 5,
+        "recipeName": "Chicken Sandwich with Fruit",
+        "description": "Great lunch or late afternoon snack. Quick to make; easy take to work. Get your knife!",
+        "categoryFilter": "all lunch",
+        "starRating": 3.8,
+        "imageUrl": "assets/images/recipes/chicken-sandwich-fruit.png",
+        "pdfUrl": "assets/pdfs/Chicken.Sandwich.With.Fruit.pdf"
+    },
+    {
+        "recipeId": 6,
+        "recipeName": "Cranberry Snap Brownies",
+        "description": "These rich and gooey bar cookies aren't really brownies! I modified a 123 Snap Brownie recipe, replacing all the high-fat ingredients with low-fat or fat-free ingredients. So Good!",
+        "categoryFilter": "all dessert",
+        "starRating": 4.0,
+        "imageUrl": "assets/images/recipes/cranberry-snap-brownies.png",
+        "pdfUrl": "assets/pdfs/Cranberry.Snap.Brownies.pdf"
+    },
+    {
+        "recipeId": 7,
+        "recipeName": "Delicious Fat-Free Cornbread",
+        "description": "Marie Callendar's half-order contains 10 grams of fat! Jiffy Cornbread has 4.5 grams of fat per serving! This recipe tastes wonderful, and is nearly fat-free!",
+        "categoryFilter": "sides",
+        "starRating": 4.5,
+        "imageUrl": "assets/images/recipes/fat-free-cornbread.jpg",
+        "pdfUrl": "assets/pdfs/Delicious.Fatfree.Cornbread.pdf"
+    },
+    {
+        "recipeId": 8,
+        "recipeName": "Fat-free Potatoes",
+        "description": "Potatoes are very satisfying. This recipe says to bake the potatoes but, you can also Steam them them a day or two ahead.  Store them in the fridge in a deep SnapWare container.",
+        "categoryFilter": "breakfast sides",
+        "starRating": 4.6,
+        "imageUrl": "assets/images/recipes/ff-potatoes.png",
+        "pdfUrl": "assets/pdfs/Fatfree.Potatoes.pdf"
+    },
+    {
+        "recipeId": 9,
+        "recipeName": "Fruit Sundae",
+        "description": "Feel like celebrating! Guilt-free (aka Fat Free!)but use a small bowl. The bowl you see here is just 5 inches in diameter, so smaller than a cereal or pasta bowl.",
+        "categoryFilter": "all lunch dessert",
+        "starRating": 4.0,
+        "imageUrl": "assets/images/recipes/fruit-sundae.png",
+        "pdfUrl": "assets/pdfs/Fruit-Sundae.pdf"
+    },
+    {
+        "recipeId": 10,
+        "recipeName": "Parsnips and Pork",
+         "description": "A very, very satisfying meal, and so delicious, but Seconds are a no-no. Eat something every few hours.", 
+        // I make this a lot now, but in the <a href=&quot;http://www.powerpressurecooker.com&quot; target=&quotpressureCooker&quot>Pressure Cooker XL</a>. With a pressure cooker, it takes longer to cut up the meat and vegetables than it does to cook the meal. Amd if you re like me, and you regularly forget to take something out for dinner, you can use frozen pork in the  pressure cooker and it takes only a few minutes longer. Dinner in 15 minutes... Wow!",
+        "categoryFilter": "dinner",
+        "starRating": 4.0,
+        "imageUrl": "assets/images/recipes/baked-yam-chips.jpg",
+        "pdfUrl": "assets/pdfs/Parsnips.and.Pork.pdf"
+    },
+    {
+        "recipeId": 11,
+        "recipeName": "Roasted Winter Vegetable Soup",
+        "description": "If you like the sweet, smooth taste of winter root vegetables, you will savor this soup. It's creamy without any added dairy products. Also, this meal is high in Vitamins A and C.",
+        "categoryFilter": "dinner lunch sides",
+        "starRating": 4.0,
+        "imageUrl": "assets/images/recipes/Roasted.Winter.Veggie.Soup.jpg",
+        "pdfUrl": "assets/pdfs/Roasted.Winter.Veggie.Soup.pdf"
+    },
+    {
+        "recipeId": 12,
+        "recipeName": "Spaghetti Squash and Salad",
+        "description": "Spaghetti.Squash.and.Salad ",
+        "categoryFilter": "dinner lunch",
+        "starRating": 3.6,
+        "imageUrl": "assets/images/recipes/squash-n-salad.png",
+        "pdfUrl": "assets/pdfs/Spaghetti.Squash.and.Salad.pdf"
+    },
+    {
+        "recipeId": 13,
+        "recipeName": "Spinach and Egg White Omlette Burrito",
+        "description": "Great way to start the day! Look for the Canteca Flour Tortillas, as they are almost fat-free.",
+        "categoryFilter": "all breakfast",
+        "starRating": 4.0,
+        "imageUrl": "assets/images/recipes/breakfast-burrito.jpg",
+        "pdfUrl": "assets/pdf/Spinach.EggWhite.Burrito.pdf"
+    },
+    {
+        "recipeId": 14,
+        "recipeName": "Super Low-Fat Hummus",
+        "description": "Hummus from a grocery store has at least 2.5 grams of fat per Two Tablespoons. Not this hummus! Be generous when you season your fat-free hummus. Enjoy!",
+        "categoryFilter": "sides",
+        "starRating": 4.9,
+        "imageUrl": "assets/images/recipes/hummus.png",
+        "pdfUrl": "assets/pdfs/Super.Lowfat.Hummus.pdf"
+    },
+    {
+        "recipeId": 15,
+        "recipeName": "Super Low-Fat Potato Salad",
+        "description": "Less than one gram of fat per serving. How is this possible? There are no egg yolks or mayonnaise, which is where the majority of the fat comes from in potato salad. In this recipe, we provide you with an option replace even the low-fat mayo with fat-free plain yogurt, and some fat-free sour cream. Don't foget to spice it up and garnish it with the tips of green onions just before serving. The more, the merrier!",
+        "categoryFilter": "sides",
+        "starRating": 4.7,
+        "imageUrl": "assets/images/recipes/Super.Lowfat.Potato.Salad.jpg",
+        "pdfUrl": "assets/pdfs/Super.Lowfat.Potato.Salad.pdf"
+    }
 ]
