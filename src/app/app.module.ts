@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -12,6 +13,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { RecipeComponent } from './shared/recipe/recipe.component';
 import { RecipesComponent } from './shared/recipes/recipes.component';
 import { RecipeFilterPipe } from "./shared/recipes/recipe-filter.Pipe";
+import { RecipeService } from './shared/recipes/recipe.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +30,7 @@ import { RecipeFilterPipe } from "./shared/recipes/recipe-filter.Pipe";
   ],
   imports: [
     BrowserModule, RouterModule,
+    HttpModule,
     RouterModule.forRoot ([
       { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"} },
       { path: 'gettingstarted', component: GettingstartedComponent, data:{ "pageTitle": "Getting Started"} },
@@ -37,7 +41,7 @@ import { RecipeFilterPipe } from "./shared/recipes/recipe-filter.Pipe";
     ])
    
   ],
-  providers: [],
+  providers: [RecipeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

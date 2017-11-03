@@ -1,8 +1,10 @@
 import { Component, EventEmitter, OnInit, Input, Output } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap, CanActivate } from '@angular/router';
 import { IRecipe } from './recipe';
+import { RecipeService } from './recipe.service';
 
 @Component({
+  //moduleId: module.id,
   selector: 'app-recipes',
   templateUrl: './recipes.component.html',
   styleUrls: ['./recipes.component.css']
@@ -11,10 +13,12 @@ import { IRecipe } from './recipe';
 export class RecipesComponent implements OnInit {
   pageTitle: string = "Meals";
   filter: string = "all";
+  errorMessage: string;
 
   @Output() fromRecipes = new EventEmitter<string>();
 
-  constructor(private route: ActivatedRoute, private router: Router) { }
+  constructor(private route: ActivatedRoute, private router: Router, 
+              private _recipeService: RecipeService) { }
 
   ngOnInit() {
     this.route.paramMap.subscribe(
@@ -22,13 +26,17 @@ export class RecipesComponent implements OnInit {
     );
     //comes from route data
     this.pageTitle = this.route.data['value'].pageTitle;
+    // this._recipeService.getRecipes()
+    // .subscribe(recipes => this.recipes = recipes,
+    //            error => this.errorMessage = <any>error);
   }
 
   setFilter($event) {
     console.log($event.target.text);
     this.filter = $event.target.text;
   }
-
+  //recipes: IRecipe[];
+  
   recipes: IRecipe[] = [
     {
       "recipeId": 1,
