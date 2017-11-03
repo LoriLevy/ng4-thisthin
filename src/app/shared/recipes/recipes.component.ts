@@ -9,35 +9,23 @@ import { IRecipe } from './recipe';
 })
 
 export class RecipesComponent implements OnInit {
-  pageTitle: string = "Meals from the Recipes page";
+  pageTitle: string = "Meals";
   filter: string = "all";
 
   @Output() fromRecipes = new EventEmitter<string>();
 
-  sendToParent() {
-    //this.pageTitle ="Meals & Recipes";
-    this.fromRecipes.emit(this.pageTitle);
-  }
-
   constructor(private route: ActivatedRoute, private router: Router) { }
-
 
   ngOnInit() {
     this.route.paramMap.subscribe(
       params => this.filter = params.get('filter')
     );
-    console.log("from the ngOnInit the filter is ", this.filter);
-    console.log("route is: ", this.route);
-   this.pageTitle = this.route.data['value'].pageTitle;
-   //this.sendToParent();
-   console.log("The pageTitle is: ", this.pageTitle);
+    //comes from route data
+    this.pageTitle = this.route.data['value'].pageTitle;
   }
 
-  setTitle($event) {
+  setFilter($event) {
     console.log($event.target.text);
-    //this.pageTitle = "Meals & Recipes";
-    //this.sendToParent();
-    //console.log("from the setTitleFunction", );
     this.filter = $event.target.text;
   }
 

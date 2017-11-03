@@ -50,8 +50,8 @@
                                 <p>Download and review my list of low-fat
                                     <u>
                                         <a href="assets/pdfs/FoodsToBuyAndEat.pdf" target="FoodsToBuyAndEat">Foods to Buy and Eat</a>
-                                    </u> and view the
-                                    <a [routerLink]="['/meals', 'all']" (click)="setTitle($event)">Meals</a> page for beautiful and delicious super low-fat recipes.
+                                    </u> and view the 
+                                    <a routerLink="/meals">Meals</a> page for beautiful and delicious super low-fat recipes.
                                 </p>
                             </div>
                             <div class="caption">
@@ -157,4 +157,4 @@
         </div>
     </div>
 </div>
-<app-footer (fromFooter)="fromFooter($event)"></app-footer>
+<app-footer></app-footer>

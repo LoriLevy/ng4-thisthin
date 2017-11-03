@@ -1,6 +1,3 @@
-<!-- <app-recipe *ngFor="let recipeItem of recipes" [recipeImage]="recipeItem.imageUrl" [recipePdf]="recipeItem.pdfUrl" [recipeName]="recipeItem.recipeName" [recipeDescription]="recipeItem.description"></app-recipe> -->
-
-<!-- [recipeImage]="recipeItem.recipeImage" recipeImage comes from Recipe.ts and recipe.recipeImage is from "let recipe..."" -->
 <app-header [pageTitle]="pageTitle"></app-header>
 <div id="content">
   <div class="container">
@@ -13,35 +10,31 @@
           <div id="isotope-options">
             <ul id="isotope-filters" class="clearfix">
               <li>
-                <a (click)="setTitle($event)">Show All</a>
-                
+                <a (click)="setFilter($event)">Show All</a>
+
               </li>
               <li>
-                <a (click)="setTitle($event)">Breakfast</a>
+                <a (click)="setFilter($event)">Breakfast</a>
               </li>
               <li>
-                <a (click)="setTitle($event)">Lunch</a>
+                <a (click)="setFilter($event)">Lunch</a>
               </li>
               <li>
-                <a (click)="setTitle($event)">Dinner</a>
+                <a (click)="setFilter($event)">Dinner</a>
               </li>
               <li>
-                <a (click)="setTitle($event)">Dessert</a>
+                <a (click)="setFilter($event)">Dessert</a>
               </li>
               <li>
-                <a (click)="setTitle($event)">Sides</a>
+                <a (click)="setFilter($event)">Sides</a>
               </li>
             </ul>
           </div>
 
           <ul class="thumbnails thumbnails-iisotope" id="isotope-items">
-            <app-recipe *ngFor="let recipeItem of recipes | recipeFilter: filter" 
-              [recipeCategory]="recipeItem.categoryFilter"
-              [recipeImage]="recipeItem.imageUrl" 
-              [recipePdf]="recipeItem.pdfUrl" 
-              [recipeName]="recipeItem.recipeName"
-              [recipeDescription]="recipeItem.description"
-              [filter] = "filter"> 
+            <app-recipe *ngFor="let recipeItem of recipes | recipeFilter: filter" [recipeCategory]="recipeItem.categoryFilter" [recipeImage]="recipeItem.imageUrl"
+              [recipePdf]="recipeItem.pdfUrl" [recipeName]="recipeItem.recipeName" [recipeDescription]="recipeItem.description"
+              [filter]="filter">
             </app-recipe>
 
           </ul>
@@ -50,4 +43,4 @@
     </div>
   </div>
 </div>
-<app-footer (fromFooter)="fromFooter($event)"></app-footer>
+<app-footer></app-footer>

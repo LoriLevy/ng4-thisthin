@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router, ActivatedRoute, ParamMap, CanActivate } from '@angular/router';
 
 @Component({
   selector: 'app-gettingstarted',
@@ -9,7 +10,10 @@ import { Component, OnInit, Input } from '@angular/core';
 export class GettingstartedComponent implements OnInit {
   pageTitle = "Getting Started";
   
+  constructor(private route: ActivatedRoute, private router: Router) { }
+
   ngOnInit() {
-    
+    //comes from route data
+    this.pageTitle = this.route.data['value'].pageTitle;
   }
 }

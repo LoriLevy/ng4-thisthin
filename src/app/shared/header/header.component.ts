@@ -8,7 +8,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 
 export class HeaderComponent implements OnInit {
- // @Input() pageName: String; 
   ngOnInit(): void {
     
   }
@@ -16,14 +15,10 @@ export class HeaderComponent implements OnInit {
  @Input() pageTitle: string;
   setTitle($event) {
     console.log($event.target.text);
-    // if( $event.target.text != '' ) {
-    //   this.pageTitle = $event.target.text;
-    //   console.log('target text is: ' + $event.target.text);
-    // }
   }
  
   setActiveLi(activeRoute) {
-    console.log('activeRoute is: ' + activeRoute.target.text);
+    //console.log('activeRoute is: ' + activeRoute.target.text);
     if(activeRoute === this.pageTitle) {
       return "active";
     }

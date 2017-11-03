@@ -12,8 +12,4 @@ import { RecipesComponent } from './shared/recipes/recipes.component';
 
 export class AppComponent {
    pageTitle: string;
-   fromFooter(pageTitle: string) {
-    console.log("The Page in app.component is:", pageTitle)
-    //this.pageTitle = pageTitle;
-  }
 }

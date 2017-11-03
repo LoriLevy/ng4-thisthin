@@ -29,10 +29,10 @@ import { RecipeFilterPipe } from "./shared/recipes/recipe-filter.Pipe";
     BrowserModule, RouterModule,
     RouterModule.forRoot ([
       { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"} },
-      { path: 'gettingstarted', component: GettingstartedComponent },
-      { path: 'meals', component: RecipesComponent, data:{ "pageTitle": "Meals and Recipes Hello "}},
-      { path: 'enhancers', component: NotfoundComponent },
-      { path: 'baking', component: NotfoundComponent },
+      { path: 'gettingstarted', component: GettingstartedComponent, data:{ "pageTitle": "Getting Started"} },
+      { path: 'meals', component: RecipesComponent, data:{ "pageTitle": "Meals and Recipes"} },
+      { path: 'enhancers', component: NotfoundComponent, data:{ "pageTitle": "Enhancers"}  },
+      { path: 'baking', component: NotfoundComponent, data:{ "pageTitle": "Low-Fat Baking"}  },
       { path: '', redirectTo: 'home', pathMatch: 'full' }
     ])
    

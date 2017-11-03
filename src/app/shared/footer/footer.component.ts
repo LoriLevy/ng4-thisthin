@@ -1,5 +1,4 @@
 import { Component, EventEmitter, OnInit, Input, Output } from '@angular/core';
-import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-footer',
@@ -7,22 +6,9 @@ import { HeaderComponent } from '../header/header.component';
  
 })
 export class FooterComponent implements OnInit {
-  pageTitle: string = "Home";
-  @Output() fromFooter = new EventEmitter<string>();
-
-  sendToParent() {
-    this.fromFooter.emit(this.pageTitle);
-   }
-
-  constructor() { }
+   constructor() { }
 
   ngOnInit(): void {
-  }
-  
-  setTitle($event) {
-    // console.log($event.target.text);
-    // this.pageTitle = $event.target.text;
-    // this.sendToParent();
   }
   
 }

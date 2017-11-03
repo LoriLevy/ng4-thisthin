@@ -1,5 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-view',
@@ -8,10 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   
-  pageTitle = "This Thin Home Page";
+  pageTitle = "Home";
 
   ngOnInit() {
-   // this.route.parent.paramMap.subscribe(params => { debugger; this.strTitle = params.get('title') });
-   // this.strTitle = this.route.snapshot.data.title;
   }
 }
