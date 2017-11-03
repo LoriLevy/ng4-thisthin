@@ -28,9 +28,9 @@ import { RecipeFilterPipe } from "./shared/recipes/recipe-filter.Pipe";
   imports: [
     BrowserModule, RouterModule,
     RouterModule.forRoot ([
-      { path: 'home', component: HomeComponent },
+      { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"} },
       { path: 'gettingstarted', component: GettingstartedComponent },
-      { path: 'meals/:filter', component: RecipesComponent },
+      { path: 'meals', component: RecipesComponent, data:{ "pageTitle": "Meals and Recipes Hello "}},
       { path: 'enhancers', component: NotfoundComponent },
       { path: 'baking', component: NotfoundComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' }

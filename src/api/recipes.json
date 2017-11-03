@@ -115,7 +115,7 @@
         "categoryFilter": "all breakfast",
         "starRating": 4.0,
         "imageUrl": "assets/images/recipes/breakfast-burrito.jpg",
-        "pdfUrl": "assets/pdf/Spinach.EggWhite.Burrito.pdf"
+        "pdfUrl": "assets/pdfs/Spinach.EggWhite.Burrito.pdf"
     },
     {
         "recipeId": 14,

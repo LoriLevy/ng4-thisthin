@@ -20,9 +20,9 @@ export class FooterComponent implements OnInit {
   }
   
   setTitle($event) {
-    console.log($event.target.text);
-    this.pageTitle = $event.target.text;
-    this.sendToParent();
+    // console.log($event.target.text);
+    // this.pageTitle = $event.target.text;
+    // this.sendToParent();
   }
   
 }
