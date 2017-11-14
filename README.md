@@ -27,3 +27,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Repo
+Create a repository on GitHub (<your-username>/<your-repo>)
+Create a db.json file
+Visit https://my-json-server.typicode.com/<your-username>/<your-repo> to access your server

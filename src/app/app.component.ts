@@ -6,7 +6,6 @@ import { TitleComponent } from './shared/title/title.component';
 import { RecipesComponent } from './shared/recipes/recipes.component';
 import { RecipeService } from './shared/recipes/recipe.service';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

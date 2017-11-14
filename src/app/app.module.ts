@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -13,8 +12,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { RecipeComponent } from './shared/recipe/recipe.component';
 import { RecipesComponent } from './shared/recipes/recipes.component';
 import { RecipeFilterPipe } from "./shared/recipes/recipe-filter.Pipe";
-import { RecipeService } from './shared/recipes/recipe.service';
-
+import { HttpModule } from '@angular/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,15 +31,15 @@ import { RecipeService } from './shared/recipes/recipe.service';
     HttpModule,
     RouterModule.forRoot ([
       { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"} },
-      { path: 'gettingstarted', component: GettingstartedComponent, data:{ "pageTitle": "Getting Started"} },
-      { path: 'meals', component: RecipesComponent, data:{ "pageTitle": "Meals and Recipes"} },
-      { path: 'enhancers', component: NotfoundComponent, data:{ "pageTitle": "Enhancers"}  },
-      { path: 'baking', component: NotfoundComponent, data:{ "pageTitle": "Low-Fat Baking"}  },
+      { path: 'gettingstarted', component: GettingstartedComponent },
+      { path: 'meals', component: RecipesComponent, data:{ "pageTitle": "Meals and Recipes Hello "}},
+      { path: 'enhancers', component: NotfoundComponent },
+      { path: 'baking', component: NotfoundComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' }
     ])
    
   ],
-  providers: [RecipeService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
