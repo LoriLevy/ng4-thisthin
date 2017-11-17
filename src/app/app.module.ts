@@ -13,6 +13,7 @@ import { RecipeComponent } from './shared/recipe/recipe.component';
 import { RecipesComponent } from './shared/recipes/recipes.component';
 import { RecipeFilterPipe } from "./shared/recipes/recipe-filter.Pipe";
 import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,7 @@ import { HttpModule } from '@angular/http';
   ],
   imports: [
     BrowserModule, RouterModule,
-    HttpModule,
+    HttpModule, HttpClientModule,
     RouterModule.forRoot ([
       { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"} },
       { path: 'gettingstarted', component: GettingstartedComponent },
