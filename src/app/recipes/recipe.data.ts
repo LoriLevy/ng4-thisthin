@@ -91,15 +91,15 @@ const Recipes = {
             "imageUrl": "assets/images/recipes/baked-yam-chips.jpg",
             "pdfUrl": "assets/pdfs/Parsnips.and.Pork.pdf"
         },
-        {
-            "recipeId": 11,
-            "recipeName": "Roasted Winter Vegetable Soup",
-            "description": "If you like the sweet, smooth taste of winter root vegetables, you will savor this soup. It's creamy without any added dairy products. Also, this meal is high in Vitamins A and C.",
-            "categoryFilter": "dinner lunch sides",
-            "starRating": 4.0,
-            "imageUrl": "assets/images/recipes/Roasted.Winter.Veggie.Soup.jpg",
-            "pdfUrl": "assets/pdfs/Roasted.Winter.Veggie.Soup.pdf"
-        },
+        // {
+        //     "recipeId": 11,
+        //     "recipeName": "Roasted Winter Vegetable Soup",
+        //     "description": "If you like the sweet, smooth taste of winter root vegetables, you will savor this soup. It's creamy without any added dairy products. Also, this meal is high in Vitamins A and C.",
+        //     "categoryFilter": "dinner lunch sides",
+        //     "starRating": 4.0,
+        //     "imageUrl": "assets/images/recipes/Roasted.Winter.Veggie.Soup.jpg",
+        //     "pdfUrl": "assets/pdfs/Roasted.Winter.Veggie.Soup.pdf"
+        // },
         {
             "recipeId": 12,
             "recipeName": "Spaghetti Squash and Salad",
@@ -125,17 +125,17 @@ const Recipes = {
             "categoryFilter": "sides",
             "starRating": 4.9,
             "imageUrl": "assets/images/recipes/hummus.png",
-            "pdfUrl": "assets/pdfs/Super.Lowfat.Hummus.pdf"
-        },
-        {
-            "recipeId": 15,
-            "recipeName": "Super Low-Fat Potato Salad",
-            "description": "Less than one gram of fat per serving. How is this possible? There are no egg yolks or mayonnaise, which is where the majority of the fat comes from in potato salad. In this recipe, we provide you with an option replace even the low-fat mayo with fat-free plain yogurt, and some fat-free sour cream. Don't foget to spice it up and garnish it with the tips of green onions just before serving. The more, the merrier!",
-            "categoryFilter": "sides",
-            "starRating": 4.7,
-            "imageUrl": "assets/images/recipes/Super.Lowfat.Potato.Salad.jpg",
-            "pdfUrl": "assets/pdfs/Super.Lowfat.Potato.Salad.pdf"
-        }
+            "pdfUrl": "assets/pdfs/Super.Lowfat.Hummus.pdf"}
+        // },
+        // {
+        //     "recipeId": 15,
+        //     "recipeName": "Super Low-Fat Potato Salad",
+        //     "description": "Less than one gram of fat per serving with no egg yolks or mayo. Don't foget to spice it up and garnish it with the tips of green onions just before serving. The more, the merrier!",
+        //     "categoryFilter": "sides",
+        //     "starRating": 4.7,
+        //     "imageUrl": "assets/images/recipes/Super.Lowfat.Potato.Salad.jpg",
+        //     "pdfUrl": "assets/pdfs/Super.Lowfat.Potato.Salad.pdf"
+        // }
     ]
 }
 

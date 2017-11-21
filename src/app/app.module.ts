@@ -9,9 +9,9 @@ import { GettingstartedComponent } from './gettingstarted/gettingstarted.compone
 import { bootstrap } from 'bootstrap';
 import { TitleComponent } from './shared/title/title.component';
 import { NotfoundComponent } from './notfound/notfound.component';
-import { RecipeComponent } from './shared/recipe/recipe.component';
-import { RecipesComponent } from './shared/recipes/recipes.component';
-import { RecipeFilterPipe } from "./shared/recipes/recipe-filter.Pipe";
+import { RecipeComponent } from './recipes/recipe.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipeFilterPipe } from "./recipes/recipe-filter.Pipe";
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 @NgModule({
@@ -33,7 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     RouterModule.forRoot ([
       { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"} },
       { path: 'gettingstarted', component: GettingstartedComponent },
-      { path: 'meals', component: RecipesComponent, data:{ "pageTitle": "Meals and Recipes Hello "}},
+      { path: 'recipes', component: RecipesComponent, data:{ "pageTitle": "Recipes "}},
       { path: 'enhancers', component: NotfoundComponent },
       { path: 'baking', component: NotfoundComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' }

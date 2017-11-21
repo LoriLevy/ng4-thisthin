@@ -14,7 +14,6 @@ export class RecipeComponent implements OnInit {
   @Input() recipePdf: string;
   @Input() recipeCategory;
   @Input() filter;
-  //show = false;
   showRecipe: boolean = false;
 
   constructor() { 
