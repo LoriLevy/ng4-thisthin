@@ -32,10 +32,10 @@ import { HttpClientModule } from '@angular/common/http';
     HttpModule, HttpClientModule,
     RouterModule.forRoot ([
       { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"} },
-      { path: 'gettingstarted', component: GettingstartedComponent },
+      { path: 'gettingstarted', component: GettingstartedComponent, data:{ "pageTitle": "Getting Started "} },
       { path: 'recipes', component: RecipesComponent, data:{ "pageTitle": "Recipes "}},
-      { path: 'enhancers', component: NotfoundComponent },
-      { path: 'baking', component: NotfoundComponent },
+      { path: 'enhancers', component: NotfoundComponent, data:{ "pageTitle": "Enhancers "}}, 
+      { path: 'baking', component: NotfoundComponent, data:{ "pageTitle": "Low-Fat Baking "}}, 
       { path: '', redirectTo: 'home', pathMatch: 'full' }
     ])
    
