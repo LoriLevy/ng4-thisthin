@@ -14,6 +14,8 @@ import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeFilterPipe } from "./recipes/recipe-filter.Pipe";
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
+import { EnhancersComponent } from './enhancers/enhancers.component';
+import { BakingComponent } from './baking/baking.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,9 @@ import { HttpClientModule } from '@angular/common/http';
     NotfoundComponent,
     RecipeComponent,
     RecipesComponent,
-    RecipeFilterPipe
+    RecipeFilterPipe,
+    EnhancersComponent,
+    BakingComponent
   ],
   imports: [
     BrowserModule, RouterModule,
@@ -34,8 +38,8 @@ import { HttpClientModule } from '@angular/common/http';
       { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"} },
       { path: 'gettingstarted', component: GettingstartedComponent, data:{ "pageTitle": "Getting Started "} },
       { path: 'recipes', component: RecipesComponent, data:{ "pageTitle": "Recipes "}},
-      { path: 'enhancers', component: NotfoundComponent, data:{ "pageTitle": "Enhancers "}}, 
-      { path: 'baking', component: NotfoundComponent, data:{ "pageTitle": "Low-Fat Baking "}}, 
+      { path: 'enhancers', component: EnhancersComponent, data:{ "pageTitle": "Enhancers "}}, 
+      { path: 'baking', component: BakingComponent, data:{ "pageTitle": "Low-Fat Baking "}}, 
       { path: '', redirectTo: 'home', pathMatch: 'full' }
     ])
    
