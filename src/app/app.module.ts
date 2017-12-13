@@ -16,6 +16,17 @@ import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import { EnhancersComponent } from './enhancers/enhancers.component';
 import { BakingComponent } from './baking/baking.component';
+
+
+const routes: Routes =  [
+  { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"}},
+  { path: 'gettingstarted', component: GettingstartedComponent, data:{ "pageTitle": "Getting Started"}},
+  { path: 'recipes', component: RecipesComponent, data:{ "pageTitle": "Recipes "}},
+  { path: 'enhancers', component: EnhancersComponent, data:{ "pageTitle": "Enhancers"}}, 
+  { path: 'baking', component: BakingComponent, data:{ "pageTitle": "Low-Fat Baking"}}, 
+  { path: '', redirectTo: 'home', pathMatch: 'full' }
+]
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,19 +40,12 @@ import { BakingComponent } from './baking/baking.component';
     RecipesComponent,
     RecipeFilterPipe,
     EnhancersComponent,
-    BakingComponent
+    BakingComponent,
   ],
   imports: [
     BrowserModule, RouterModule,
     HttpModule, HttpClientModule,
-    RouterModule.forRoot ([
-      { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"} },
-      { path: 'gettingstarted', component: GettingstartedComponent, data:{ "pageTitle": "Getting Started "} },
-      { path: 'recipes', component: RecipesComponent, data:{ "pageTitle": "Recipes "}},
-      { path: 'enhancers', component: EnhancersComponent, data:{ "pageTitle": "Enhancers "}}, 
-      { path: 'baking', component: BakingComponent, data:{ "pageTitle": "Low-Fat Baking "}}, 
-      { path: '', redirectTo: 'home', pathMatch: 'full' }
-    ])
+    RouterModule.forRoot (routes)
    
   ],
   providers: [],
