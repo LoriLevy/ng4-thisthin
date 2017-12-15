@@ -1,34 +1,42 @@
 import { AppPage } from './app.po';
 import { element, browser, by, Key } from 'protractor';
+import { HomePage } from './pages/home.page';
+import { BakingPage } from './pages/baking.page';
+import { GettingStartedPage } from './pages/gettingstarted.page';
+import { EnhancersPage } from './pages/enhancers.page';
+import { RecipesPage } from './pages/recipes.page';
 
 describe('This Thin Test Suite', () => {
     let appPage: AppPage;
-    appPage = new AppPage();
 
 /* Home Page Tests */
 describe('This Thin Home Page', () => {
+  let homePage: HomePage;
   
   beforeAll(() => {
+    homePage = new HomePage();
     appPage.navigateToHome();  
   });
 
   it('should display "Home" as the Page Header', () => {
-    expect(appPage.getPageHeadingH1()).toEqual('Do you want to be "This Thin"?');
+    expect(homePage.getPageHeading()).toEqual('Do you want to be "This Thin"?');
   });
 
   it('should have a banner title of "Home" ', () => {
-    expect(appPage.getBannerTitle()).toEqual('Home');
+    expect(homePage.getBannerTitle()).toEqual('Home');
 
   });
   afterAll(() => {
-    appPage.clickHomeLink();  
+    appPage.navigateToHome();  
   });
 });
 
 /* Getting Started Page Tests */
 describe('This Thin Getting Started Page', () => {
+  let gettingstartedPage: GettingStartedPage;
 
   beforeAll(() => {
+    gettingstartedPage = new GettingStartedPage();
     appPage.navigateToGetStarted();
   });
 
@@ -37,23 +45,25 @@ describe('This Thin Getting Started Page', () => {
   })
 
   it('should display the "Playing the Fat Game" as the Page Header', () => {
-    expect(appPage.getPageHeadingH2()).toEqual('Playing the Fat Game');
+    expect(gettingstartedPage.getPageHeading()).toEqual('Playing the Fat Game');
   });
 
   it('should display the "Getting Started" as the Page Banner Title', () => {
-    expect(appPage.getBannerTitle()).toEqual('Getting Started');
+    expect(gettingstartedPage.getBannerTitle()).toEqual('Getting Started');
   });
 
   afterAll(() => {
-    appPage.clickHomeLink();  
+    appPage.navigateToHome();  
   });
 });
 
 /* Recipes Page Tests */
 describe('This Thin Recipes Page', () => {
+  let recipesPage: RecipesPage;
 
   beforeAll(() => {
-    appPage.navigateToRecipes();
+    recipesPage = new RecipesPage();
+    appPage.Recipes();
   });
 
   it('should be on the Recipes Page', () => {
@@ -61,21 +71,23 @@ describe('This Thin Recipes Page', () => {
   })
 
   it('should display "Recipes" as the Page Header', () => {
-    expect(appPage.getPageHeadingH1()).toEqual('Recipes');
+    expect(recipesPage.getPageHeading()).toEqual('Recipes');
   });
 
   it('should have a banner title of "Recipes" ', () => {
-    expect(appPage.getBannerTitle()).toEqual('Recipes');
+    expect(recipesPage.getBannerTitle()).toEqual('Recipes');
   });
   afterAll(() => {
-    appPage.clickHomeLink();  
+    appPage.navigateToHome();  
   });
 });
 
 /* Enhancers Page Tests */
 describe('This Thin Getting Started Page', () => {
+  let enhancersPage: EnhancersPage;
 
   beforeAll(() => {
+    enhancersPage = new EnhancersPage();
     appPage.navigateToEnhancers();
   });
 
@@ -84,21 +96,23 @@ describe('This Thin Getting Started Page', () => {
   })
 
   it('should display "Enhancers" as Page Header', () => {
-    expect(appPage.getPageHeadingH1()).toEqual('Enhancers');
+    expect(enhancersPage.getPageHeading()).toEqual('Enhancers');
   });
 
   it('should have a banner title of "Enhancers" ', () => {
-    expect(appPage.getBannerTitle()).toEqual('Enhancers');
+    expect(enhancersPage.getBannerTitle()).toEqual('Enhancers');
   });
   afterAll(() => {
-    appPage.clickHomeLink();  
+    appPage.navigateToHome();  
   });
 });
 
 /* Baking Page Tests */
 describe('This Thin Baking Page', () => {
+  let bakingPage: BakingPage;
 
   beforeAll(() => {
+    bakingPage = new BakingPage();
     appPage.navigateToBaking();
   });
 
@@ -107,14 +121,14 @@ describe('This Thin Baking Page', () => {
   })
 
   it('should display "Baking" as Page Header', () => {
-    expect(appPage.getPageHeadingH1()).toEqual('Low-Fat Baking');
+    expect(bakingPage.getPageHeading()).toEqual('Low-Fat Baking');
   });
 
   it('should have a banner title of "Baking" ', () => {
-    expect(appPage.getBannerTitle()).toEqual('Low-Fat Baking');
+    expect(bakingPage.getBannerTitle()).toEqual('Low-Fat Baking');
   });
   afterAll(() => {
-    appPage.clickHomeLink();  
+    appPage.navigateToHome();  
   });
 });
 });

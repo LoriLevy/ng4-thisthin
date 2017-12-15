@@ -2,7 +2,7 @@
   "name": "ng4-thisthin",
   "author": "Lori Levy",
   "description": "This Thin Web Site converted from statc responsive HTML to Angular 4",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "license": "Lori Levy for ThisThin.com",
   "scripts": {
     "ng": "ng",
@@ -44,7 +44,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "~5.1.2",
+    "protractor": "~5.1.2", 
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
