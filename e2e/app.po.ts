@@ -1,9 +1,9 @@
 import { browser, by, element } from 'protractor';
-import { HomePage } from './pages/home.page';
-import { BakingPage } from './pages/baking.page';
-import { GettingStartedPage } from './pages/gettingstarted.page';
-import { EnhancersPage } from './pages/enhancers.page';
-import { RecipesPage } from './pages/recipes.page';
+// import { HomePage } from './pages/home.page';
+// import { BakingPage } from './pages/baking.page';
+// import { GettingStartedPage } from './pages/gettingstarted.page';
+// import { EnhancersPage } from './pages/enhancers.page';
+// import { RecipesPage } from './pages/recipes.page';
 
 export class AppPage {
   navigateToHome() {
@@ -11,23 +11,23 @@ export class AppPage {
   }
 
   clickHomeLink() {
-    browser.findElement(by.css('a[routerlink="home"]')).click();
+    browser.findElement(by.css('.nav.sf-menu a[routerlink="home"]')).click();
   }
 
   navigateToGetStarted() {
-   browser.findElement(by.css('a[routerlink="/gettingstarted"]')).click();
+   browser.findElement(by.css('.nav.sf-menu a[routerlink="/gettingstarted"]')).click();
   }
 
   navigateToRecipes() {
-    browser.findElement(by.css('a[routerlink="/recipes"]')).click();
+    browser.findElement(by.css('.nav.sf-menu a[routerlink="/recipes"]')).click();
   
   }
   navigateToEnhancers() {
-    browser.findElement(by.css('a[routerlink="/enhancers"]')).click();
+    browser.findElement(by.css('.nav.sf-menu a[routerlink="/enhancers"]')).click();
   }
 
   navigateToBaking() {
-    browser.findElement(by.css('a[routerlink="/baking"]')).click();
+    browser.findElement(by.css('.nav.sf-menu a[routerlink="/baking"]')).click();
   }
 
   getPageHeadingH1() {
