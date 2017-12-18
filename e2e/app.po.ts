@@ -1,9 +1,4 @@
 import { browser, by, element } from 'protractor';
-// import { HomePage } from './pages/home.page';
-// import { BakingPage } from './pages/baking.page';
-// import { GettingStartedPage } from './pages/gettingstarted.page';
-// import { EnhancersPage } from './pages/enhancers.page';
-// import { RecipesPage } from './pages/recipes.page';
 
 export class AppPage {
   navigateToHome() {
@@ -14,19 +9,19 @@ export class AppPage {
     browser.findElement(by.css('.nav.sf-menu a[routerlink="home"]')).click();
   }
 
-  navigateToGetStarted() {
+  clickGetStarted() {
    browser.findElement(by.css('.nav.sf-menu a[routerlink="/gettingstarted"]')).click();
   }
 
-  navigateToRecipes() {
+  clickRecipes() {
     browser.findElement(by.css('.nav.sf-menu a[routerlink="/recipes"]')).click();
   
   }
-  navigateToEnhancers() {
+  clickEnhancers() {
     browser.findElement(by.css('.nav.sf-menu a[routerlink="/enhancers"]')).click();
   }
 
-  navigateToBaking() {
+  clickBaking() {
     browser.findElement(by.css('.nav.sf-menu a[routerlink="/baking"]')).click();
   }
 
@@ -40,6 +35,26 @@ export class AppPage {
 
   getBannerTitle() {
     return element(by.css('.page_title_px')).getText();
+  }
+
+  getActiveHeaderMenuItem() {
+    return element(by.css('.nav.sf-menu li.active a')).getText();
+  }
+
+  getActiveFooterMenuItem() {
+    return element(by.css('.menu_bot li.active a')).getText();
+  }
+
+  countRecipeFilterButtons() {
+   let filterCount = 0;
+    return element.all(by.css('ul#isotope-filters li a'))
+    // .then(function(items) {
+    //   console.log("#isotope-filters SIZE is: ", items.length);
+    //   filterCount = items.length;
+    //   //expect(items.length).toBe(6);
+    //   //expect(items[0].getText()).toBe('First');
+    //   return filterCount;  
+    // });     
   }
 }
 

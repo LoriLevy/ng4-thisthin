@@ -32,7 +32,7 @@ export class RecipesComponent implements OnInit {
   setFilter($event) {
     console.log($event.target.text);
     this.filter = $event.target.text;
+    $event.target.classList.toggle('selected'); 
+    //target.classList.add('selected'); 
   }
-  
-  
 }
