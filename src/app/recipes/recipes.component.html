@@ -8,25 +8,34 @@
           <h1>Recipes</h1>
 
           <div id="isotope-options">
-            <ul id="isotope-filters" class="clearfix">
+            <ul id="isotope-filters" class="clearfix"><span class="glyphicon"
+              
+              (click)="onClick()"
+              
+              ></span>
               <li>
-                <a (click)="setFilter($event)" class="">Show All</a>
-
+                <a (click)="setFilter($event);selected=1" [class.selected]="selected==1"
+                [class.notselected]="selected!=1">Show All</a>
               </li>
               <li>
-                <a (click)="setFilter($event)" class="">Breakfast</a>
+                <a (click)="setFilter($event);selected=2" [class.selected]="selected==2"
+                [class.notselected]="selected!=2">Breakfast</a>
               </li>
               <li>
-                <a (click)="setFilter($event)" class="">Lunch</a>
+                <a (click)="setFilter($event);selected=3" [class.selected]="selected==3"
+                [class.notselected]="selected!=3">Lunch</a>
               </li>
               <li>
-                <a (click)="setFilter($event)" class="">Dinner</a>
+                <a (click)="setFilter($event);selected=4" [class.selected]="selected==4"
+                [class.notselected]="selected!=4">Dinner</a>
               </li>
               <li>
-                <a (click)="setFilter($event)" class="">Dessert</a>
+                <a (click)="setFilter($event);selected=5" [class.selected]="selected==5"
+                [class.notselected]="selected!=5">Dessert</a>
               </li>
               <li>
-                <a (click)="setFilter($event)" class="">Sides</a>
+                <a (click)="setFilter($event);selected=6" [class.selected]="selected==6"
+                [class.notselected]="selected!=6">Sides</a>
               </li>
             </ul>
           </div>

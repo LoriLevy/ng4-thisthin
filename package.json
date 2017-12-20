@@ -2,7 +2,7 @@
   "name": "ng4-thisthin",
   "author": "Lori Levy",
   "description": "This Thin Web Site converted from statc responsive HTML to Angular 4",
-  "version": "1.2.7",
+  "version": "1.2.9",
   "license": "Lori Levy for ThisThin.com",
   "scripts": {
     "ng": "ng",

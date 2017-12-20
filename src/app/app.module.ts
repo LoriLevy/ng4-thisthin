@@ -1,3 +1,4 @@
+import { RecipesService } from './recipes/recipes.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -16,6 +17,7 @@ import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import { EnhancersComponent } from './enhancers/enhancers.component';
 import { BakingComponent } from './baking/baking.component';
+import { Recipes } from './recipes/recipe.data';
 
 
 const routes: Routes =  [
@@ -48,7 +50,7 @@ const routes: Routes =  [
     RouterModule.forRoot (routes)
    
   ],
-  providers: [],
+  providers: [RecipesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,11 +2,11 @@
     <div class="thumb-isotope">
         <div class="thumbnail clearfix">
                 <figure>
-                    <img src="{{recipeImage}}" />
+                    <img [src]="recipeImage" />
                 </figure>
                 <div class="caption"><div class="normal">{{recipeName}}</div> 
                     <div class="description">{{recipeDescription}}</div> 
-                    <div><a target="recipe" href="{{recipePdf}}">Get the Recipe</a></div> 
+                    <div><a target="recipe" [href]="recipePdf">Get the Recipe</a></div> 
                 </div> 
         </div>
     </div>
