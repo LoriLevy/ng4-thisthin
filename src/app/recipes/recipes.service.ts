@@ -92,15 +92,15 @@ export class RecipesService {
                 "imageUrl": "assets/images/recipes/parsnips.pork.jpg",
                 "pdfUrl": "assets/pdfs/Parsnips.and.Pork.pdf"
             },
-            // {
-            //     "recipeId": 11,
-            //     "recipeName": "Roasted Winter Vegetable Soup",
-            //     "description": "If you like the sweet, smooth taste of winter root vegetables, you will savor this soup. It's creamy without any added dairy products. Also, this meal is high in Vitamins A and C.",
-            //     "categoryFilter": "dinner lunch sides",
-            //     "starRating": 4.0,
-            //     "imageUrl": "assets/images/recipes/Roasted.Winter.Veggie.Soup.jpg",
-            //     "pdfUrl": "assets/pdfs/Roasted.Winter.Veggie.Soup.pdf"
-            // },
+            {
+                "recipeId": 11,
+                "recipeName": "Brownies from Scratch",
+                "description": "If you like sweets, learn to make them the low-fat way. It's a bit of work but sooo worth it!",
+                "categoryFilter": "dessert",
+                "starRating": 4.0,
+                "imageUrl": "assets/images/recipes/brownies.from.scratch.png",
+                "pdfUrl": "assets/pdfs/brownies.from.scratch.pdf"
+            },
             {
                 "recipeId": 12,
                 "recipeName": "Spaghetti Squash and Salad",
