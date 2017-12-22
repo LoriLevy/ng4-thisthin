@@ -2,7 +2,7 @@ import { RecipesService } from './recipes.service';
 import { Component, EventEmitter, OnInit, Input, Output } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap, CanActivate } from '@angular/router';
 import { IRecipe } from './recipe';
-import { Recipes } from './recipe.data';
+//import { Recipes } from './recipe.data';
 
 @Component({
   //moduleId: module.id,
@@ -15,7 +15,7 @@ export class RecipesComponent implements OnInit {
   pageTitle: string = "Recipes";
   filter: string = "all";
   errorMessage: string;
-  isSelected: boolean;
+  selected: number;
 
   @Output() fromRecipes = new EventEmitter<string>();
   recipes: IRecipe[];
@@ -25,13 +25,13 @@ export class RecipesComponent implements OnInit {
     this.recipes = service.getRecipes();
   }
 
-
   ngOnInit() {
     this.route.paramMap.subscribe(
       params => this.filter = params.get('filter')
     );
     //comes from route data
     this.pageTitle = this.route.data['value'].pageTitle;
+    this.selected = 1;
     //this comes from the recipe.data.ts file
     //this.recipes = Recipes.MyRecipes;
     
@@ -40,9 +40,5 @@ export class RecipesComponent implements OnInit {
   setFilter($event) {
     console.log($event.target.text);
     this.filter = $event.target.text;
-    this.isSelected = !this.isSelected;
-    // $event.target.classList.toggle('selected'); 
-    //target.classList.add('selected'); 
-    
   }
 }
