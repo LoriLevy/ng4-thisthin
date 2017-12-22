@@ -1,8 +1,8 @@
 {
   "name": "ng4-thisthin",
   "author": "Lori Levy",
-  "description": "This Thin Web Site converted from statc responsive HTML to Angular 4",
-  "version": "1.2.11",
+  "description": "This Thin Web Site converted from static responsive HTML to Angular 4 app",
+  "version": "1.2.12",
   "license": "Lori Levy for ThisThin.com",
   "scripts": {
     "ng": "ng",

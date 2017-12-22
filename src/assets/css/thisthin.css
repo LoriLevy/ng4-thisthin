@@ -172,7 +172,7 @@ h6{ font-weight: 700; font-family: 'Droid Serif'; font-size: 16px; line-height: 
 .radius1 { border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
 
 .pad_bot1 { padding-bottom: 20px;}
-
+.pad-top-6 { padding-top: 6px; }
 .book-title { text-decoration: underline; font-weight: 400; font-style: italic; }
 .thumb-width1 { width: 215px; }
 /* === */

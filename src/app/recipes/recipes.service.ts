@@ -77,7 +77,7 @@ export class RecipesService {
             {
                 "recipeId": 9,
                 "recipeName": "Fruit Sundae",
-                "description": "Feel like celebrating! Guilt-free (aka Fat Free!)but use a small bowl. The bowl you see here is just 5 inches in diameter, so smaller than a cereal or pasta bowl.",
+                "description": "Feel like celebrating! Guilt-free (aka Fat Free!) but use a small bowl. The bowl you see here is just 5 inches in diameter, smaller than a cereal or pasta bowl.",
                 "categoryFilter": "lunch dessert",
                 "starRating": 4.0,
                 "imageUrl": "assets/images/recipes/fruit-sundae.png",
@@ -89,7 +89,7 @@ export class RecipesService {
                 "description": "A very, very satisfying meal, and so delicious, but Seconds are a no-no. Eat something every few hours.",
                 "categoryFilter": "dinner",
                 "starRating": 4.0,
-                "imageUrl": "assets/images/recipes/baked-yam-chips.jpg",
+                "imageUrl": "assets/images/recipes/parsnips.pork.jpg",
                 "pdfUrl": "assets/pdfs/Parsnips.and.Pork.pdf"
             },
             // {
@@ -104,7 +104,7 @@ export class RecipesService {
             {
                 "recipeId": 12,
                 "recipeName": "Spaghetti Squash and Salad",
-                "description": "Spaghetti.Squash.and.Salad ",
+                "description": "A lovely medley of fresh veggies, that is lovely to look at and deliciious and low-fat to enjoy.",
                 "categoryFilter": "dinner lunch",
                 "starRating": 3.6,
                 "imageUrl": "assets/images/recipes/squash-n-salad.png",
@@ -112,7 +112,7 @@ export class RecipesService {
             },
             {
                 "recipeId": 13,
-                "recipeName": "Spinach and Egg White Omlette Burrito",
+                "recipeName": "Spinach and Egg White Omelet Burrito",
                 "description": "Great way to start the day! Look for the Canteca Flour Tortillas, as they are almost fat-free.",
                 "categoryFilter": "all breakfast",
                 "starRating": 4.0,
