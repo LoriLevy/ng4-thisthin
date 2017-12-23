@@ -32,3 +32,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Create a repository on GitHub (<your-username>/<your-repo>)
 Create a db.json file
 Visit https://my-json-server.typicode.com/<your-username>/<your-repo> to access your server
+
+## Deployment
+To Build for Prod: use this command at the terminal:
+ng build --env=prod
+Everything goes into the dist folder which is what you would FTP to your public html root folder.
+

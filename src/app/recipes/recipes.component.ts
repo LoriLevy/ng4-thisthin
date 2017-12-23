@@ -1,3 +1,4 @@
+import { Meta, Title } from "@angular/platform-browser";
 import { RecipesService } from './recipes.service';
 import { Component, EventEmitter, OnInit, Input, Output } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap, CanActivate } from '@angular/router';
@@ -21,8 +22,14 @@ export class RecipesComponent implements OnInit {
   recipes: IRecipe[];
 
   constructor(private route: ActivatedRoute, private router: Router,
-  private service: RecipesService) { 
+  private service: RecipesService, meta: Meta, title: Title) { 
     this.recipes = service.getRecipes();
+
+    title.setTitle('ThisThin - Recipes');
+    meta.updateTag(
+      { name: 'description', content: 'ThisThin.com Recipes. Choose a category and download pdfs.' },
+      `name='description'`
+    );
   }
 
   ngOnInit() {
