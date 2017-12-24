@@ -19,7 +19,6 @@ import { EnhancersComponent } from './enhancers/enhancers.component';
 import { BakingComponent } from './baking/baking.component';
 import { Recipes } from './recipes/recipe.data';
 
-
 const routes: Routes =  [
   { path: 'home', component: HomeComponent, data:{ "pageTitle": "Home"}},
   { path: 'gettingstarted', component: GettingstartedComponent, data:{ "pageTitle": "Getting Started"}},
