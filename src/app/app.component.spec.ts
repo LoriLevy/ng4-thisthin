@@ -24,10 +24,10 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  // it(`should have as title 'ThisThin.com - Follow me to a slimmer you'`, async(() => {
+  // it(`should have as title 'ThisThin.com - Follow me to a thinner you'`, async(() => {
   //   const fixture = TestBed.createComponent(AppComponent);
   //   const app = fixture.debugElement.componentInstance;
-  //   expect(app.title).toEqual('ThisThin.com - Follow me to a slimmer you');
+  //   expect(app.title).toEqual('ThisThin.com - Follow me to a thinner you');
   // }));
   // it('should render title in a h1 tag', async(() => {
   //   const fixture = TestBed.createComponent(AppComponent);

@@ -1,11 +1,12 @@
 # Ng4Thisthin
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
+Originally I had a static responsive web design static HTML site at [ThisThin.com](http://www.thisthin.com). I wanted to update it and decided that I would combine my efforts to update the site with my determination to master Angular 4. Many thanks to my awesome Angular trainer, Hemil Patel aka [TechSith](http://www.techsith.com).
 
 ## Development server
 
-Run `ng serve --port 4500` for a dev server. 
-Navigate to `http://localhost:4500/`. The app will automatically reload if you change any of the source files.
+Run `ng serve --port 4500 --open` for a dev server. 
+The app will open in your default browser and automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

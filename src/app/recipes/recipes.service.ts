@@ -126,17 +126,27 @@ export class RecipesService {
                 "categoryFilter": "sides",
                 "starRating": 4.9,
                 "imageUrl": "assets/images/recipes/hummus.png",
-                "pdfUrl": "assets/pdfs/Super.Lowfat.Hummus.pdf"}
-            // },
-            // {
-            //     "recipeId": 15,
-            //     "recipeName": "Super Low-Fat Potato Salad",
-            //     "description": "Less than one gram of fat per serving with no egg yolks or mayo. Don't foget to spice it up and garnish it with the tips of green onions just before serving. The more, the merrier!",
-            //     "categoryFilter": "sides",
-            //     "starRating": 4.7,
-            //     "imageUrl": "assets/images/recipes/Super.Lowfat.Potato.Salad.jpg",
-            //     "pdfUrl": "assets/pdfs/Super.Lowfat.Potato.Salad.pdf"
-            // }
+                "pdfUrl": "assets/pdfs/Super.Lowfat.Hummus.pdf"
+            },
+            {
+                "recipeId": 15,
+                "recipeName": "Fat-Free Soft and Chewy Brown Sugar Cookies",
+                "description": "Nobody ever believes these cookies are fat-free! A simple recipe, but chilling the dough for 2 hours prior to baking is mandatory.",
+                "categoryFilter": "desserts",
+                "starRating": 4.5,
+                "imageUrl": "assets/images/recipes/fat-free.sugar.cookies.png",
+                "pdfUrl": "assets/pdfs/Fat-Free.Brown.Sugar.Cookies.pdf"
+            },
+            {
+                "recipeId": 16,
+                "recipeName": "Italian Wedding Soup",
+                "description": "This is the lowest-fat way to make this delicious soup. In fact, this recipe takes it from 15 grams of fat per serving to just under 3 grams for a 12 oz. serving. ",
+                "categoryFilter": "dinner",
+                "starRating": 4.2,
+                "imageUrl": "assets/images/recipes/italian.wedding.soup.png",
+                "pdfUrl": "assets/pdfs/italian.wedding.soup.pdf"
+            }
+
         ]
     }
 }

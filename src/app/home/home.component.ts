@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   pageTitle = "Home";
   constructor(meta: Meta, title: Title) {
 
-    title.setTitle('Welcome to Thisthin. Follow me to a slimmer you!');
+    title.setTitle('Welcome to Thisthin. Follow me to a thinner you!');
     meta.addTags([
       { name: 'author',   content: 'Lori Levy'},
       { name: 'keywords', content: 'Losing weight, keeping it off, getting started, Lori Levy, diets dont work, drop pounds'},
