@@ -14,7 +14,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build, like this:
+ng build --prod --env=prod
 
 ## Running unit tests
 
@@ -43,4 +44,5 @@ Once you rename the file, it will seem to disappear, since it becomes a system f
 
 Many thanks to [Minko Gechev](http://blog.mgechev.com/) for helping me solve this issue and sharing it on github.
 
-
+## Internet Explorer Issues
+If you have an Angular site not working in IE11, open the polyfills.ts file and uncomment lines 22-35.
